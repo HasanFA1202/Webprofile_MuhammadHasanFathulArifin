@@ -181,7 +181,7 @@ nav ul li a:hover::after
 {
     height: 65vh;
     background-color: #E6E6E6;
-    padding: 2% 10% 10%;
+    padding: 2% 10% 21%;
 }
 
 .skill-desc
@@ -251,7 +251,7 @@ nav ul li a:hover::after
 
 .box-container .card .imgBx img
 {
-    max-width: 100%;
+    max-width: 1000%;
     border-radius: 10px;
 }
 
@@ -277,3 +277,80 @@ nav ul li a:hover::after
     transition-delay: 0.3s;
 }
 
+.box-container .card .content h2
+{
+    font-family: poppins;
+    font-size: 24px;
+}
+
+/*contact*/
+.Contact
+{
+    height: 75vh;
+    background-color: #381B00;
+    padding: 2% 10% 10%;
+}
+
+.Contact-desc
+{
+    margin: 50px 50px;
+}
+
+.Contact-desc p:nth-child(1)
+{
+    font-family: poppins;
+    font-weight: bold;
+    color: #E6E6E6;
+    font-size: 36px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.Contact-desc p:nth-child(2)
+{
+    font-family: poppins;
+    color: #E6E6E6;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f8851a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: poppins;
+}
+
+label
+{
+    color: #E6E6E6;
+    font-family: poppins;
+}
+
+input[type=submit]
+{
+    background-color: #E6E6E6;
+    color: #381B00;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color: #a7a7a7;
+}
+
+input:active
+{
+    transform: scale(1.1);
+}

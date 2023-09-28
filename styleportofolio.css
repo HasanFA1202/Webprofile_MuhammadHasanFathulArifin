@@ -20,7 +20,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 94px;
+    height: 60px;
     background-color: #381B00;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     padding: 0px 10%;
@@ -81,4 +81,50 @@ nav ul li a:hover::after
     color: #E6E6E6;
     font-size: 24px;
     font-weight: bold;
+}
+
+.home p
+{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+
+.home p:nth-child(1)
+{
+    font-family: poppins;
+    font-weight: bold;
+    color: #381B00;
+    font-size: 24px;
+}
+
+.home p:nth-child(2)
+{
+    font-family: poppins;
+    font-weight: bold;
+    color: #381B00;
+    font-size: 64px;
+    letter-spacing: none;
+    line-height: 30px;
+}
+
+.home p:nth-child(3)
+{
+    font-family: poppins;
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+.home p:nth-child(4)
+{
+    font-family: poppins;
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+.home
+{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(43%, 43%);
 }

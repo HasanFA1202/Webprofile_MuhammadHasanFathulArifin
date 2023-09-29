@@ -353,4 +353,76 @@ input[type=submit]:hover
 input:active
 {
     transform: scale(1.1);
+} 
+
+footer
+{
+    background-color: #a7a7a7;
+    height: 25vh;
+    font-family: popipns;
+    padding: 2% 10% 10%;
+    color: #1a1a1a;
+    justify-content: center;
+}
+
+.footer-content 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2
+{
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 0px;
+    font-family: poppins;
+    color: #381B00;
+    font-weight: bold;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px 20px;
+    line-height: none;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.socials
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li
+{
+    margin: 0 10px;
+    align-items: center;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.socials a i 
+{
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    transition: color 4.s ease-in-out;
+}
+
+.socials a:hover
+{
+    color: rgb(255, 187, 0);
 }
